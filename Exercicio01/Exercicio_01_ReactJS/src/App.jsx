@@ -1,35 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <body>
+        <img src="../public/react.png" alt="logo do react"/>
+
+        <h1>React</h1>  
+        <p>A biblioteca para interfaces de usuario web nativas</p>
+        <button>Aprenda React</button>
+        <button>Referência da API</button>
+        <hr />
+        <h2>Crie interfaces de usuario de componentes</h2>
+        <p>React permite que voce constria nterfaces de usuario a partir de pedaços indiciduais chamados componentes</p>
+        <hr />
+        <h2>Escreva componentes com codigo e marcação</h2>
+        <p>Componentes React são funções javascript. A sintaxe de marcação é chamada JSX. É uma extensão da sintaxe javascript popularizada pelo react</p>
+        <hr />
+        <h2>Proximos passos</h2>
+        <ul>
+          <li>Uso de dados dinamicos no JSX</li>
+          <li>Criação de novos componentes</li>
+          <li>Estilização de componenetes</li>
+          <li>Reutilização de componentes</li>
+          <li>Uso de props e children</li>
+          <li>Uso de eventos do javascript</li>
+        </ul>
+    </body>
+
   )
 }
-
-export default App
