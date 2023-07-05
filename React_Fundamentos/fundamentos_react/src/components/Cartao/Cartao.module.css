@@ -1,0 +1,25 @@
+.cartao {
+    background-color: rgb(175, 177, 180);
+    padding: 3rem;
+    width: 40rem;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.banner {
+    width: 10rem;
+    margin-right: 2rem;
+    border: 8px solid black;
+}
+
+.descricao {
+    align-items: flex-start;
+}
+
+.margem {
+    margin: 0;
+}
