@@ -1,25 +1,25 @@
-.cartao {
-    background-color: rgb(175, 177, 180);
-    padding: 3rem;
-    width: 40rem;
-    height: 14rem;
+.container {
+    background-color: #d7e1e7;
+    border-radius: 1rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    margin: 0;
-}
-
-.banner {
-    width: 10rem;
-    margin-right: 2rem;
-    border: 8px solid black;
-}
-
-.descricao {
-    align-items: flex-start;
-}
-
-.margem {
-    margin: 0;
-}
+    gap: 4rem;
+    height: 30rem;
+    margin: 0 auto;
+    padding: 4rem;
+    width: 50rem;
+  }
+  
+  .poster {
+    border: 8px solid #000;
+    box-shadow: 0 24px 32px -16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .title {
+    font-size: 1.75rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+  }

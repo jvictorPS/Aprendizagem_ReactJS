@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Cartao from './components/Cartao/Cartao.jsx'
+import App from './components/Cartao/index.jsx'
+import "./styles/globals.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Cartao />
+    <App />
   </React.StrictMode>,
 )
