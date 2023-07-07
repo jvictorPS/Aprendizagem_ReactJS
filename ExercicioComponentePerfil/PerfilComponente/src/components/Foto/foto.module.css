@@ -1,0 +1,9 @@
+.foto {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: gray;
+    margin-bottom: 3rem;
+    box-shadow: 0 24px 32px -16px rgba(0, 0, 0, 0.4);
+}
