@@ -1,0 +1,7 @@
+.seguir {
+    padding: .125rem .5rem;
+}
+
+.seguir:hover {
+    cursor: pointer;
+}
