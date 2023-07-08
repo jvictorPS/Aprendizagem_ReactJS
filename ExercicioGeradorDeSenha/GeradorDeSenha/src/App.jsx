@@ -20,18 +20,10 @@ function App() {
     return setSenha(stringAleatoria)
   }
 
-  async function copiarSenha(senhaCopiada) {
-
-        try {
-          await navigator.clipboard.writeText(senhaCopiada);
-          console.log('Texto copiado para a área de transferência!');
-        } catch (error) {
-          console.error('Erro ao copiar o texto:', error);
-        }
-      
-    
-    setCopiar('Copiado!')
-  }
+function copiarSenha(senhaCopiada) {
+  navigator.clipboard.writeText(senhaCopiada);
+  setCopiar('Copiado!')
+}
 
   const estiloBotao = {
     marginRight: '2rem',
