@@ -1,4 +1,10 @@
 import styles from "./botao.module.css"
+import PropTypes from "prop-types"
+
+Botao.prototype = {
+    link: PropTypes.string.isRequired,
+    nome: PropTypes.string.isRequired
+}
 
 export default function Botao (props) {
     return (
