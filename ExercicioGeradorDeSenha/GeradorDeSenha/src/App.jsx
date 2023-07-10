@@ -33,7 +33,7 @@ function copiarSenha(senhaCopiada) {
       <h1>Gerador de Senha</h1>
       <div className="card">
         <div style={{marginBottom: '3rem'}}>
-          <label htmlFor="personalizarTamanhoSenha">Personalizar tamanho da senha?</label>
+          <label htmlFor="personalizarTamanhoSenha" style={{marginRight: '0.5rem'}}>Personalizar tamanho da senha?</label>
           <input 
             type="checkbox" 
             id="checkPersonalizar"
